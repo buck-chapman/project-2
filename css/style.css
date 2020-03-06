@@ -66,22 +66,27 @@ padding:0;
   padding: 8px 0 4px 0;
 }
 
+.marquee img {
+	height: 40px;
+	width: auto;
+
+}
 
 /* would need to be adjusted depending on time */
 .marquee .marqueeone{
-  animation: marquee 10s linear infinite
+  animation: marquee 10s linear infinite;
 }
 
 .marquee .marqueetwo{
-  animation: marquee 10s linear 2.5s infinite
+  animation: marquee 10s linear 2.5s infinite;
 }
 
 .marquee .marqueethree{
-  animation: marquee 10s linear 5s infinite
+  animation: marquee 10s linear 5s infinite;
 }
 
 .marquee .marqueefour{
-  animation: marquee 10s linear 7.5s infinite
+  animation: marquee 10s linear 7.5s infinite;
 }
 
 /* even out the elements */
@@ -102,13 +107,16 @@ padding:0;
 @keyframes marquee {
   0% { left: 100%; }
   50% { left: -100%; }
-  100% {left: -100%}
+  100% {left: -250%;}
 }
+
+.body, .photo-img , .svg {border-right: 1px solid black;}
+
 
 
 
 div{
-	border-right: 1px solid black;
+
 	padding: 20px;
 }
 
@@ -145,6 +153,7 @@ div:last-child{
 .grid-4{
 	display: block;
 	border: solid 1px;
+	padding-bottom: 15px;
 }
 
 .grid-5{
