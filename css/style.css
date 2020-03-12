@@ -6,6 +6,7 @@ body {
 	font-size: 16px;
 	background-color: white;
 	text-align: justify;
+	margin: 15px;
 
 	 }
 
@@ -63,6 +64,10 @@ padding:0px;
 	width: 80%;
 }
 
+.photo-contact{
+	margin-top: 40px;
+	margin-right: 15px;
+}
 
 
 
